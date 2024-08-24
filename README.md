@@ -1,7 +1,4 @@
-Here's a template you can use for a `README.md` file for your GitHub repository:
-
-```markdown
-# Voice Assistant Project
+# Marvis Voice Assistant Project
 
 This is a Python-based voice assistant project that leverages various Python libraries to perform tasks like speech recognition, text-to-speech conversion, playing music, fetching news, and interacting with OpenAI's API. The project is designed to be a basic structure upon which more complex functionalities can be built.
 
@@ -36,15 +33,13 @@ You will also need API keys for:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/username/voice-assistant.git
+git clone https://github.com/hamza-samiullah/marvis.git
 ```
-
-Replace `username` with your GitHub username and `voice-assistant` with your repository name.
 
 ### Step 2: Navigate to the Project Directory
 
 ```bash
-cd voice-assistant
+cd marvis
 ```
 
 ### Step 3: Create a Virtual Environment
@@ -160,5 +155,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 This `README.md` file provides all the necessary instructions to set up, run, and contribute to the voice assistant project. Feel free to customize it further according to your specific needs.
 ```
-
-This template should give you a clear structure for your project's documentation and guide others on how to use and contribute to your repository.
