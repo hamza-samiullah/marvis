@@ -15,10 +15,12 @@ engine = pyttsx3.init()
 #NEWSAPI Key here
 API_KEY = "NEWS_API_KEY"
 
+#Simple Speak Function
 def speak_old(text):
     engine.say(text)
     engine.runAndWait()
 
+#Speak function with gtts 
 def speak(text):
     tts = gTTS(text)
     tts.save('temp.mp3')
